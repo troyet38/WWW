@@ -1,0 +1,192 @@
+/* FONT-FACE */
+@font-face {
+    font-family:"Roboto Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Roboto Bold";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+
+body{
+    background-color: black;
+    font-family:"Roboto Regular", sans-serif;
+    color: white;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Roboto Bold";
+    padding: 10px 10px;
+    font-size: 2rem;
+}
+p{
+    padding: 10px 10px;
+}
+
+li{
+    padding: 10px 10px 10px 20px;
+    list-style: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.perso{
+    background-color: rgb(200, 173, 127);
+    color:white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 1325px;
+    width:100vw;
+    margin: -10px 0px 50px 0px ;
+    font-size: 20px;
+    
+
+    
+}
+
+
+.photo{
+    width: 400px;
+    height: 200px;
+}
+
+.chasseur{
+    border: 1px solid black;
+    overflow: hidden;
+    display: inline-block;
+    width: 400px;
+    box-shadow: 3px 3px 10px gray;
+    height: 600px;
+    margin: 0px 50px 0px 0px ;
+    position: relative;
+    background-color: rgb(25, 24, 24);
+}
+
+.moine{
+    border: 1px solid black;
+    overflow: hidden;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    box-shadow: 3px 3px 10px gray;
+    position: relative;
+    background-color: rgb(25, 24, 24);
+}
+
+.paladin{
+    border: 1px solid black;
+    overflow: hidden;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    box-shadow: 3px 3px 10px gray;
+    margin: 0px 0px 0px 50px ;
+    position: relative;
+    background-color: rgb(25, 24, 24);
+
+}
+
+.btn1{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid green;
+    text-decoration: none;
+    position: absolute;
+    top:540px;
+    left: 100px;
+    
+    
+    
+
+
+}
+.btn1:hover{
+    background-color: red;
+    color: black;
+}
+
+.btn2{
+    background-color: greenyellow;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid greenyellow;
+    text-decoration: none;
+    position: absolute;
+    top:540px;
+    left: 100px;
+
+
+}
+.btn2:hover{
+    background-color: cyan;
+    color: black;
+}
+
+.btn3{
+    background-color: pink;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid pink;
+    text-decoration: none;
+    position: absolute;
+    top:540px;
+    left: 100px;
+
+
+}
+
+.btn3:hover{
+    background-color: purple;
+    color: black;
+}
+
+
+@media screen and (max-width:576px)   {
+
+    h1,h2,h3,h4,h5,h6{
+        font-size: 1,5rem;
+    }
+    .perso{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+        
+    
+    }    
+    section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+    }
+    .chasseur{
+       
+        margin: 0px 0px 0px 0px ;
+    }
+    .moine{
+        margin: 20px 0px 20px 0px ;
+    }
+    
+    .paladin{
+        
+        margin: 0px 0px 0px 0px ;
+    
+    }
+
+    
+
+
+    
+    
+} 
+
